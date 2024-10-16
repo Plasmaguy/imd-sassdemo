@@ -1,0 +1,11 @@
+$font__heading: Georgia, serif;
+$font__body: Helvetica, sans-serif;
+
+$color__blue: rgb(155, 155, 255);
+$color__grey: rgb(145, 145, 145);
+$color__pink: rgb(255, 136, 215);
+$color__white: rgb(232, 232, 232);
+$color__black: rgb(15, 15, 15);
+
+$color__link: $color__pink;
+$color__link-hover: lighten($color__link, 15%);
