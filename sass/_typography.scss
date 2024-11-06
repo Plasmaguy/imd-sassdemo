@@ -14,3 +14,13 @@ ul {
      color: $color__black;
      font-size: $font__small;
 }
+
+a {
+     color: $color__green;
+     &:active {
+          color: $color__lightgreen;
+     }
+     &:visited {
+          color: $color__cyan;
+     }
+}
