@@ -1,14 +1,21 @@
+@use "sass:color";
+
 $font__heading: Georgia, serif;
 $font__body: Helvetica, sans-serif;
 
 $font__large: 48px;
 $font__reg: 20px;
+$font__small: 18px;
 
 $color__red: rgb(212, 2, 2);
 $color__grey: rgb(207, 207, 207);
 $color__pink: rgb(255, 136, 215);
 $color__white: rgb(232, 232, 232);
 $color__black: rgb(15, 15, 15);
+$color__green: rgb(6, 189, 0);
+$color__lightgreen: rgb(62, 236, 56);
+$color__cyan: rgb(15, 67, 92);
 
-$color__link: $color__pink;
-$color__link-hover: lighten($color__link, 15%);
+$color__link: $color__green;
+$color__link-hover: $color__red;
+$color__link-clicked: $color__cyan;
